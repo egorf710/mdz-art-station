@@ -3,14 +3,15 @@
 <meta charset="utf-8" />
 <title>MiniDayZ Art Station</title>
 <link rel="stylesheet" href="style.css" />
-<script type="module" src="/index.js"></script>
+
+<script type="module" src="dist/bundle.js "></script>
 
 <body>
   <nav class="navme">
     <ul>
-      <li><a href="#About" onclick="openCity(event, 'About')">About</a></li>
-      <li><a href="#Profile" onclick="openCity(event, 'Profile')">Profile</a></li>
-      <li><a href="#Gallery" onclick="openCity(event, 'Gallery')">Gallery</a></li>
+      <li><a href="#About" onclick="OpenCity(event, 'About');">About</a></li>
+      <li><a href="#Profile" onclick="OpenCity(event, 'Profile');">Profile</a></li>
+      <li><a href="#Gallery" onclick="OpenCity(event, 'Gallery');">Gallery</a></li>
     </ul>
   </nav>
 
@@ -34,15 +35,15 @@
                 <input type="text" name="email" placeholder="email..."/>
                 <input type="password" name="reg_password" placeholder="password..."/>
                 <input type="password" name="reg_c_password" placeholder="confirm password..."/>
-                <input type="submit" value="sign up"></input>
+                <input type="submit" value="sign up">
 
             </form>
 
             <form class="sign_in" name="sign_in">
                 
                 <input type="text" name="email" placeholder="email..."/>
-                <input type="password" name="reg_password" placeholder="password..."/>
-                <input type="submit" value="sign in"></input>
+                <input type="password" name="log_password" placeholder="password..."/>
+                <input type="submit" value="sign in">
 
               </form>
 
@@ -50,11 +51,15 @@
 
         <div class="profile">
 
-            
+          <button id="SignOutButton">sign out</button>
+
+          <div id="publicArtForm">
+            <input type="text" name="art_name" placeholder="art name..."/>
+            <input class="inputArtImage" type="file" name="art_image"/>
+            <input type="submit" value="publish">
+          </div>
 
         </div>
-        
-        <script>openProfile()</script>
 
       </p>
       
@@ -69,6 +74,9 @@
     </div>
   </div>
 
-  <script>openCity(null, 'About')</script>
+  <script src="/index.js"></script>
+  
+  <script>OpenCity(null, 'About');</script>
+
 </body>
 </html>

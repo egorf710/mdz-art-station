@@ -126,33 +126,60 @@ a{
 
 .sign_up
 {
-  width: 50%;
-  margin-left: 25%;
+  width: 20%;
+  margin-left: 40%;
 
-  border: #2375d8 solid;
+  border: #2374d800 solid;
+  background-color: #232323;
   border-radius: 2%;
 }
 .sign_up input
 {
-  width: 50%;
+  width: 80%;
   padding: 15px;
-  margin: 5px 0 15px 25%;
+  margin: 5px 0 15px 10%;
   display: inline-block;
   background: #f1f1f1;
 }
 .sign_in
 {
-  width: 50%;
-  margin-left: 25%;
+  width: 20%;
+  margin-left: 40%;
 
-  border: #2375d8 solid;
+  border: #2374d800 solid;
+  background-color: #232323;
   border-radius: 2%;
 }
 .sign_in input
 {
-  width: 50%;
+  width: 80%;
   padding: 15px;
-  margin: 5px 0 15px 25%;
+  margin: 5px 0 15px 10%;
   display: inline-block;
   background: #f1f1f1;
+}
+#SignOutButton{
+  margin: 10;
+  display: inline-block;
+  background-color: #2375d8;
+  border: 1% solid;
+  border-radius: 20%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+#SignOutButton:hover {
+  background-color: #4f92e3;
+}
+.inputArtImage{
+  border: solid #2374d800;
+  border-radius: 5%;
+  background-color: #4f92e3;
+  margin: 5px 0 5px 0;
+}
+#publicArtForm{
+  border: solid #2375d8;
+  border-radius: 5%;
+  padding: 5px;
+  margin: 10px;
+  width: 300px;
 }
