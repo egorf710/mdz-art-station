@@ -53,7 +53,9 @@
 
           <button id="SignOutButton">sign out</button>
 
+          
           <div id="publicArtForm">
+            <p class="headText" align="center" >Publish new art</p>
             <input type="text" name="art_name" placeholder="art name..."/>
             <input class="inputArtImage" type="file" name="art_image"/>
             <input type="submit" value="publish">
@@ -67,8 +69,8 @@
   </div>
   <div class="tabcontent" id="Gallery">
     <div class="ContentBlock">
-      <p class="ContectText">
-        Gallery
+      <p class="ContectText" id="Gallery">
+        
       </p>
       
     </div>
@@ -77,6 +79,7 @@
   <script src="/index.js"></script>
   
   <script>OpenCity(null, 'About');</script>
+  <script>CreatePost();</script>
 
 </body>
 </html>

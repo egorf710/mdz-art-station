@@ -11,3 +11,7 @@ function OpenCity(evt, cityName) {
         evt.currentTarget.className += " active";
     }
 }
+
+function CreatePost(){
+    var root = document.getElementById("Gallery");
+}

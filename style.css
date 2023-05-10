@@ -183,3 +183,11 @@ a{
   margin: 10px;
   width: 300px;
 }
+.headText{
+  margin: 5px 15px 5px 15px;
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+}
+#Gallery{
+  
+}
